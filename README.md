@@ -2,32 +2,32 @@
 
 ## {{project_description}}
 
-![GitHub - License](https://img.shields.io/github/license/{{github_username}}/{{pypi_package_name}})
-[![CI/CD Pipeline](https://github.com/{{github_username}}/{{repo_name}}/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/{{github_username}}/{{repo_name}}/actions/workflows/ci-cd.yml)
-[![codecov](https://codecov.io/github/{{github_username}}/{{repo_name}}/graph/badge.svg?token={{codecov_token}})](https://codecov.io/github/{{github_username}}/{{repo_name}})
-![PyPI - Version](https://img.shields.io/pypi/v/{{pypi_package_name}})
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{pypi_package_name}})
+![GitHub - License](https://img.shields.io/github/license/rhoadesScholar/llm-experiments)
+[![CI/CD Pipeline](https://github.com/rhoadesScholar/llm-experiments/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/rhoadesScholar/llm-experiments/actions/workflows/ci-cd.yml)
+[![codecov](https://codecov.io/github/rhoadesScholar/llm-experiments/graph/badge.svg?token=)](https://codecov.io/github/rhoadesScholar/llm-experiments)
+![PyPI - Version](https://img.shields.io/pypi/v/llm-experiments)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/llm-experiments)
 
-{{long_description}}
+A Python package for a repository of experiments inspecting llm's, particularly focused on detecting signs of human-like self-awareness via psychodynamic-inspired prompting..
 
 ## Installation
 
 ### From PyPI
 
 ```bash
-pip install {{pypi_package_name}}
+pip install llm-experiments
 ```
 
 ### From source
 
 ```bash
-pip install git+https://github.com/{{github_username}}/{{repo_name}}.git
+pip install git+https://github.com/rhoadesScholar/llm-experiments.git
 ```
 
 ## Usage
 
 ```python
-import {{package_name}}
+import llm_experiments
 
 # Example usage
 # TODO: Add your usage examples here
@@ -39,8 +39,8 @@ import {{package_name}}
 
 ```bash
 # Clone the repository
-git clone https://github.com/{{github_username}}/{{repo_name}}.git
-cd {{repo_name}}
+git clone https://github.com/rhoadesScholar/llm-experiments.git
+cd llm-experiments
 
 # Install in development mode with all dependencies
 make dev-setup
@@ -87,7 +87,7 @@ make check-all
 
 ## License
 
-{{license_name}}. See [LICENSE](LICENSE) for details.
+GNU GPL v3.0. See [LICENSE](LICENSE) for details.
 
 ## Citation
 

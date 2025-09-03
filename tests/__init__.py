@@ -1,1 +1,1 @@
-"""Test package for {{package_name}}."""
+"""Test package for llm_experiments."""

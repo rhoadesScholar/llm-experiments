@@ -1,10 +1,10 @@
-"""Core functionality for {{package_name}}."""
+"""Core functionality for llm_experiments."""
 
 from typing import Any, Optional
 
 
-class {{main_class}}:
-    """Main class for {{package_name}}.
+class LlmExperiments:
+    """Main class for llm_experiments.
     
     This is a template class that you should modify according to your needs.
     
@@ -13,7 +13,7 @@ class {{main_class}}:
         param2: Description of parameter 2
         
     Example:
-        >>> obj = {{main_class}}(param1="value1")
+        >>> obj = LlmExperiments(param1="value1")
         >>> result = obj.process()
     """
     
@@ -23,7 +23,7 @@ class {{main_class}}:
         param2: Optional[int] = None,
         **kwargs: Any
     ) -> None:
-        """Initialize the {{main_class}}.
+        """Initialize the LlmExperiments.
         
         Args:
             param1: Description of parameter 1
@@ -45,7 +45,7 @@ class {{main_class}}:
     
     def __repr__(self) -> str:
         """Return string representation of the object."""
-        return f"{{main_class}}(param1='{self.param1}', param2={self.param2})"
+        return f"LlmExperiments(param1='{self.param1}', param2={self.param2})"
 
 
 def helper_function(input_data: Any) -> Any:

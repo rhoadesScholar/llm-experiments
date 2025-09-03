@@ -1,6 +1,6 @@
 # Pre-commit Hooks
 
-This directory contains custom pre-commit hooks for the {{repo_name}} project.
+This directory contains custom pre-commit hooks for the llm-experiments project.
 
 ## update-version.py
 

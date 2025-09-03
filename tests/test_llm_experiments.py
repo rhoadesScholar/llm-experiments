@@ -1,37 +1,37 @@
-"""Test suite for {{package_name}}."""
+"""Test suite for llm_experiments."""
 
 import pytest
 
-from {{package_name}} import {{main_class}}
-from {{package_name}}.core import helper_function
+from llm_experiments import LlmExperiments
+from llm_experiments.core import helper_function
 
 
-class Test{{main_class}}:
-    """Test cases for {{main_class}}."""
+class TestLlmExperiments:
+    """Test cases for LlmExperiments."""
     
     def test_initialization(self):
         """Test basic initialization."""
-        obj = {{main_class}}(param1="test")
+        obj = LlmExperiments(param1="test")
         assert obj.param1 == "test"
         assert obj.param2 is None
     
     def test_initialization_with_params(self):
         """Test initialization with all parameters."""
-        obj = {{main_class}}(param1="test", param2=42)
+        obj = LlmExperiments(param1="test", param2=42)
         assert obj.param1 == "test"
         assert obj.param2 == 42
     
     def test_process(self):
         """Test the process method."""
-        obj = {{main_class}}(param1="test")
+        obj = LlmExperiments(param1="test")
         result = obj.process()
         assert "Processed: test" in result
     
     def test_repr(self):
         """Test string representation."""
-        obj = {{main_class}}(param1="test", param2=42)
+        obj = LlmExperiments(param1="test", param2=42)
         repr_str = repr(obj)
-        assert "{{main_class}}" in repr_str
+        assert "LlmExperiments" in repr_str
         assert "test" in repr_str
         assert "42" in repr_str
     
@@ -42,7 +42,7 @@ class Test{{main_class}}:
     ])
     def test_process_parametrized(self, param1: str, expected: str):
         """Test process method with different parameters."""
-        obj = {{main_class}}(param1=param1)
+        obj = LlmExperiments(param1=param1)
         result = obj.process()
         assert result == expected
 
@@ -75,7 +75,7 @@ class TestIntegration:
     def test_full_workflow(self):
         """Test complete workflow."""
         # Initialize object
-        obj = {{main_class}}(param1="integration_test")
+        obj = LlmExperiments(param1="integration_test")
         
         # Process data
         result = obj.process()
@@ -90,9 +90,9 @@ class TestIntegration:
 
 # Fixtures for common test data
 @pytest.fixture
-def sample_{{package_name}}_object():
-    """Fixture providing a sample {{main_class}} object."""
-    return {{main_class}}(param1="fixture_test", param2=123)
+def sample_llm_experiments_object():
+    """Fixture providing a sample LlmExperiments object."""
+    return LlmExperiments(param1="fixture_test", param2=123)
 
 
 @pytest.fixture
@@ -106,9 +106,9 @@ def sample_data():
     }
 
 
-def test_with_fixtures(sample_{{package_name}}_object, sample_data):
+def test_with_fixtures(sample_llm_experiments_object, sample_data):
     """Test using fixtures."""
-    assert sample_{{package_name}}_object.param1 == "fixture_test"
-    assert sample_{{package_name}}_object.param2 == 123
+    assert sample_llm_experiments_object.param1 == "fixture_test"
+    assert sample_llm_experiments_object.param2 == 123
     assert "test_string" in sample_data
     assert sample_data["test_number"] == 42
