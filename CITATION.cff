@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use {{project_name}} in your research, please cite it as below."
+title: "{{project_name}}: {{project_description}}"
+authors:
+  - family-names: {{author_last_name}}
+    given-names: {{author_first_name}}
+    orcid: {{author_orcid}}
+version: 0.1.0
+date-released: {{current_date}}
+# doi: 10.5281/zenodo.1234567  # optional, if you have a Zenodo DOI
+repository-code: https://github.com/{{github_username}}/{{repo_name}}
+license: {{license_spdx_id}}

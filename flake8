@@ -1,0 +1,25 @@
+[flake8]
+# Set line length to 88 characters to match Black's default
+max-line-length = 88
+
+# Extend ignore list to be compatible with Black
+extend-ignore =
+    # E203: whitespace before ':' (conflicts with Black)
+    E203,
+    # W503: line break before binary operator (conflicts with Black)
+    W503
+
+# Exclude common directories that don't need linting
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    build,
+    dist,
+    .eggs,
+    *.egg-info
+
+# Set maximum complexity for functions (optional)
+max-complexity = 10
