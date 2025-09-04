@@ -1,6 +1,6 @@
-# {{project_name}}
+# LLM Experiments
 
-## {{project_description}}
+## Experiments inspecting llm's, particularly focused on detecting signs of human-like self-awareness via psychodynamic-inspired prompting.
 
 ![GitHub - License](https://img.shields.io/github/license/rhoadesScholar/llm-experiments)
 [![CI/CD Pipeline](https://github.com/rhoadesScholar/llm-experiments/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/rhoadesScholar/llm-experiments/actions/workflows/ci-cd.yml)
@@ -8,7 +8,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/llm-experiments)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/llm-experiments)
 
-A Python package for a repository of experiments inspecting llm's, particularly focused on detecting signs of human-like self-awareness via psychodynamic-inspired prompting..
+These experiments take inspiration from Gordon Allport's idiographic work in personality theory (see “The Use of Personal Documents in Psychological Science,” 1942), as well as George Kelly's subsequent "Role Construct Repertory Test" (the latter of which is included as an experiment in this repo).
 
 ## Installation
 
