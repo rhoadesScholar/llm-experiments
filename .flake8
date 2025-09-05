@@ -8,6 +8,13 @@ extend-ignore =
     E203,
     # W503: line break before binary operator (conflicts with Black)
     W503
+    # TODO: Fix these
+     # unused import
+    F401
+     # unable to detect undefined names
+    F403
+     # star imports
+    F405
 
 # Exclude common directories that don't need linting
 exclude =

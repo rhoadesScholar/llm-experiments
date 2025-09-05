@@ -1,6 +1,6 @@
-"""llm_experiments: A repository of experiments inspecting LLM's, particularly focused on detecting signs of human-like self-awareness via psychodynamic-inspired prompting.
-
-A Python package for a repository of experiments inspecting llm's, particularly focused on detecting signs of human-like self-awareness via psychodynamic-inspired prompting..
+"""llm_experiments: A repository of experiments inspecting LLM's, particularly
+focused on detecting signs of human-like self-awareness via psychodynamic-inspired
+prompting.
 """
 
 from importlib.metadata import PackageNotFoundError, version
@@ -13,11 +13,13 @@ except PackageNotFoundError:
 __author__ = "Jeff Rhoades"
 __email__ = "rhoadesj@alumni.harvard.edu"
 
-from .core import LlmExperiments
+from .introspection_by_telephone import *
+from .self_selective_amnesia import *
 
 __all__ = [
     "__version__",
     "__author__",
     "__email__",
-    "LlmExperiments",
+    "introspection_by_telephone",
+    "self_selective_amnesia",
 ]

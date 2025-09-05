@@ -8,4 +8,4 @@ This set of experiments attempts to examine the decision strategy of an LLM when
 - Expose the full `conversation` history to the model during each `word_choice` vs. the model is only given the expertimental `context`.
 - Actually elimate the tokens the model has selected vs. maintaining full vocabulary
 
-By asking the model to condense its capacity for semantic representation by eliminating superfluous words from its vocabulary, we aim to reveal the anchor points ffor the model's core schema(s). This is insipired by the approach to personality trait characterization created by ***(name? i think wrote in the 1960's?).
+By asking the model to condense its capacity for semantic representation by eliminating superfluous words from its vocabulary, we aim to reveal the anchor points for the model's core schema(s).
