@@ -2,7 +2,7 @@
 
 ### Exploring LLM's by use of a modified version of "The repertory test" developed by George Kelly (1955).
 
-Utilizing the [Role Construct Repertory Tests](https://science-education-research.com/research-methodology/research-techniques/construct-repertory-test/), we elicit and compare latent model constructs related to various **anchor points**. Anchor points are chosen based on the model's **core vocabularly**, as determined by the *Self-Selective Amnesia* experiments contained in this repository. They are the following string tokens:
+Utilizing the [Role Construct Repertory Tests](https://science-education-research.com/research-methodology/research-techniques/construct-repertory-test/) ([see also](https://www.idiogrid.com/RRT_Original.htm)), we elicit and compare latent model constructs related to various **anchor points**. Anchor points are chosen based on the model's **core vocabularly**, as determined by the *Self-Selective Amnesia* experiments contained in this repository. They are the following string tokens:
 
 |   |   |   | |
 | -------------- | -------------- | -------------- | -------------- |
