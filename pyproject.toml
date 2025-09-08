@@ -30,9 +30,9 @@ classifiers = [
 keywords = ["llm", "large language models", "model welfare"]
 requires-python = ">=3.10"
 dependencies = [
-    # Add your core dependencies here
-    # "numpy>=1.20.0",
-    # "torch>=1.9.0",
+    "transformers>=4.20.0",
+    "torch>=1.9.0",
+    "numpy>=1.20.0",
 ]
 
 [project.optional-dependencies]
