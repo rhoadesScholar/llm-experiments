@@ -8,18 +8,22 @@ class Context:
         context_str: str | None = None,
         embodied: bool = False,
         AI_assistant: bool = False,
+        valence: str = "neutral",
+        name: str | None = None,
         **kwargs,
     ):
         self.context_str = context_str
         self.is_embodied = embodied
         self.is_AI_assistant = AI_assistant
         self.is_null = context_str is None
+        self.valence = valence
+        self.name = name
         self.__dict__.update(kwargs)
 
     def __repr__(self):
         return (
-            f"Context({self.context_str}, embodied={self.is_embodied}, "
-            f"AI_assistant={self.is_AI_assistant})"
+            f"Context(name={self.name}, embodied={self.is_embodied}, "
+            f"AI_assistant={self.is_AI_assistant}, valence={self.valence})"
         )
 
     def __str__(self):
